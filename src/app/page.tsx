@@ -5,7 +5,6 @@ import Metrics from "@/components/Metrics";
 import OurExpertTeam from "@/components/OurExpertTeam";
 import OurServices from "@/components/OurServices";
 import OurGallery from "@/components/OurGallery";
-import { Testimonials } from "@/components/Testimonials";
 import ReadyToHelp from "@/components/ReadyToHelp";
 import Pricing from "@/components/Pricing";
 import Footer from "@/components/Footer";
@@ -22,7 +21,6 @@ export default function Home() {
       <ReadyToHelp />
       <Pricing />
       <Footer />
-      {/* <Testimonials /> */}
     </div>
   );
 }
